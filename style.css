@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#ps {
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1.5px gray solid;
+    border-bottom: 1.5px gray solid;
+    text-align: center;
+    padding:6px;
+}
+
+#header {
+    margin: 10px;
+}
+#photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-fit: cover;
+    margin:200px;
+    margin-top:20px;
+}
+.now{
+    color:lightpink;
+}
